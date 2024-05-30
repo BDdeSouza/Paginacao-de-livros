@@ -1,0 +1,144 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font: bolder;
+    font-weight: 700;
+    background-color: #f2f2f2;
+    color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.container {
+    background-color: #333333;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 90%;
+    width: 980px;
+    box-sizing: border-box;
+    margin-top: 70px;
+        
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+table {
+    width: 980px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-x: auto;
+    display: block;
+    max-width: 930px;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #555;
+    background-color:#f2f2f2;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+
+.pagination button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.pagination button:hover {
+    background-color: #666;
+}
+
+#page-numbers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+#page-numbers button {
+    background-color: #ccc;
+    color: black;
+    border: none;
+    padding: 10px;
+    margin: 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#page-numbers button:hover {
+    background-color: #666;
+}
+
+#page-numbers button.active {
+    background-color: black;
+    color: white;
+}
+
+#pagination-info {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #ddd;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 800px) {
+    th, td {
+        font-size: 12px;
+        padding: 5px;
+    }
+
+    .pagination button {
+        padding: 5px;
+    }
+
+    #page-numbers button {
+        padding: 5px;
+        margin: 1px;
+    }
+
+    #pagination-info {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    th, td {
+        font-size: 10px;
+        padding: 3px;
+    }
+
+    .pagination button {
+        padding: 3px;
+    }
+
+    #page-numbers button {
+        padding: 3px;
+        margin: 1px;
+    }
+
+    #pagination-info {
+        font-size: 10px;
+    }
+}
