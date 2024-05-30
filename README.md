@@ -20,9 +20,11 @@
 
 <p>Instale o Node, conforme código para a plataforma escolhida</p>
 
-<p><a href="https://nodejs.org/en/download/package-manager">Link Downlaod</a>
+<p><a href="https://nodejs.org/en/download/package-manager">Link Download</a>
 
 <p><img src="./images/image2.png"/><p>
+
+<p>É importante clicar na segunda aba da figura acima para entrar no link que direciona para a instalação do Node</p>
 
 <br>
 <br>
