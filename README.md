@@ -1,5 +1,4 @@
 <h1>Exercício Paginacao de Livros</h1>
-<<<<<<< HEAD
 
 <p>Para ser acessado pelo usuário pela primeira vez</p>
 =======
