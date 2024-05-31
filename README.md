@@ -1,7 +1,6 @@
 <h1>Exercício Paginacao de Livros</h1>
 =======
 <p>Para ser acessado pelo(a) usuário(a) pela primeira vez</p>
->>>>>>> f7fbd323d8da47e677939ec3ae3b9668a44b452c
 
 <br>
 <br>
