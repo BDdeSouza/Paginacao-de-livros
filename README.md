@@ -1,6 +1,10 @@
 <h1>Exercício Paginacao de Livros</h1>
+<<<<<<< HEAD
 
 <p>Para ser acessado pelo usuário pela primeira vez</p>
+=======
+<p>Para ser acessado pelo(a) usuário(a) pela primeira vez</p>
+>>>>>>> f7fbd323d8da47e677939ec3ae3b9668a44b452c
 
 <br>
 <br>
@@ -24,6 +28,8 @@
 <p><a href="https://nodejs.org/en/download/package-manager">Link Download</a>
 
 <p><img src="./images/image2.png"/><p>
+
+<p>É importante clicar na segunda aba da figura acima para entrar no link que direciona para a instalação do Node</p>
 
 <br>
 <br>
