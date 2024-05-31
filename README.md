@@ -1,4 +1,6 @@
-<h1>Projeto Banco de Dados de Livros</h1>
+<h1>Exercício Paginacao de Livros</h1>
+
+<p>Para ser acessado pelo usuário pela primeira vez</p>
 
 <br>
 <br>
@@ -12,14 +14,14 @@
 <p>Adicione os dados do CSV arquivo</p>
 <p><img src="./images/image1.png"/><p>
 
-<p style="color:red; font:bolder">Certifique se de estar rodando na mesma porta para o arquivo db.js (Ex: localhost:27017)</p>
+<p style="color:red; font:bolder">Certifique-se de estar rodando na mesma porta para o arquivo db.js (Ex: localhost:27017)</p>
 
 <br>
 <br>
 
-<p>Instale o Node, conforme código para a platforma escolhida</p>
+<p>Instale o Node, conforme código para a plataforma escolhida</p>
 
-<p><a href="https://nodejs.org/en/download/package-manager">Link Downlaod</a>
+<p><a href="https://nodejs.org/en/download/package-manager">Link Download</a>
 
 <p><img src="./images/image2.png"/><p>
 

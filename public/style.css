@@ -1,50 +1,83 @@
 body {
-    font-family: 'Times New Roman', Times, serif;
-    font: bolder;
-    font-weight: 700;
-    background-color: #f2f2f2;
-    color: #333333;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    background-color: black;
+    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0;
+    font-weight: 600;
 }
 
 .container {
+    margin-top: 15px;
     background-color: #333333;
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     max-width: 90%;
-    width: 980px;
     box-sizing: border-box;
-    margin-top: 70px;
-        
+    width: 1000px;
 }
 
 h1 {
     text-align: center;
-    color: white;
 }
 
 table {
-    width: 980px;
+    width: 100%;
     border-collapse: collapse;
     margin-top: 20px;
-    overflow-x: auto;
-    display: block;
-    max-width: 930px;
+    border: 4px;
 }
 
-th, td {
+th,
+td {
     padding: 10px;
     text-align: left;
-    border-bottom: 1px solid #555;
-    background-color:#f2f2f2;
+    border-bottom: 1px solid #e8e8e8;
+    white-space: nowrap;
+    background-color: #f2f2f2;
+    color: #0c0c0c;
 }
 
-th {
+
+th:last-child {
+    border-top-right-radius: 10px;
+}
+
+th:first-child {
+    border-top-left-radius: 10px;
+}
+
+tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+tr:last-child td {
+    border-bottom: none;
+}
+
+tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+
+
+
+table tr:nth-child(odd) td{
     background-color: #f2f2f2;
+}
+table tr:nth-child(even) td{
+    background-color: #f9f9f9;
+}
+
+
+
+
+td:first-child {
+    width: 30%;
+    white-space: wrap;
 }
 
 .pagination {
@@ -77,13 +110,17 @@ th {
 }
 
 #page-numbers button {
-    background-color: #ccc;
-    color: black;
+    background-color: #cccccc;
+    color: #0c0c0c;
     border: none;
-    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
     margin: 2px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 3px;
+    font-weight: 300;
 }
 
 #page-numbers button:hover {
@@ -91,20 +128,25 @@ th {
 }
 
 #page-numbers button.active {
-    background-color: black;
+    background-color: #000000;
     color: white;
+    border: 1px solid white;
 }
 
 #pagination-info {
     text-align: center;
     margin-top: 10px;
+    margin-bottom: 80px;
     font-size: 14px;
     color: #ddd;
 }
 
 /* Media Queries for responsiveness */
 @media (max-width: 800px) {
-    th, td {
+
+
+    th,
+    td {
         font-size: 12px;
         padding: 5px;
     }
@@ -124,7 +166,9 @@ th {
 }
 
 @media (max-width: 600px) {
-    th, td {
+
+    th,
+    td {
         font-size: 10px;
         padding: 3px;
     }

@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
         row.innerHTML = `
           <td>${book.title}</td>
           <td>${book.author}</td>
-          <td>${Number(book.isbn).toFixed(0)}</td>
+          <td>${book.isbn?Number(book.isbn).toFixed(0):''}</td>
           <td>${book.pages}</td>
           <td>${book.year}</td>
           <td>${book.price}</td>
