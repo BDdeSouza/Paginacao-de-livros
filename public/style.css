@@ -185,4 +185,37 @@ td:first-child {
     #pagination-info {
         font-size: 10px;
     }
+#page-numbers button:disabled {
+    background-color: #ccc;
+    color: #999;
+    cursor: not-allowed;
+}
+
+#page-numbers button.disabled {
+    background-color: #ccc;
+    color: #999;
+    cursor: not-allowed;
+}
+
+#page-numbers button.disabled:hover {
+    background-color: #ccc;
+    color: #999;
+}
+}
+
+#page-numbers button:disabled {
+    background-color: #ccc;
+    color: #999;
+    cursor: not-allowed;
+}
+
+#page-numbers button.disabled {
+    background-color: #ccc;
+    color: #999;
+    cursor: not-allowed;
+}
+
+#page-numbers button.disabled:hover {
+    background-color: #ccc;
+    color: #999;
 }
