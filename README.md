@@ -1,12 +1,8 @@
 <h1>Exercício Paginacao de Livros</h1>
 
-<p>Para ser acessado pelo usuário pela primeira vez</p>
-=======
 <p>Para ser acessado pelo(a) usuário(a) pela primeira vez</p>
 
 <br>
-<br>
-
 <p>Instale o Mongo DB</p>
 <p><a href="https://www.mongodb.com/try/download/community">Link Site</a>
 
